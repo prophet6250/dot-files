@@ -1,0 +1,114 @@
+Xft.dpi:       96
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.autohint:  false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+XTerm.pointerColor:      #1ABB9B
+XTerm.faceName:          Cascadia Mono
+XTerm.faceSize:          12
+XTerm.selectToClipboard: true
+
+! special
+*.foreground:   #c5c5c5
+*.background:   #1c1c1c
+*.cursorColor:  #c5c5c5
+
+! black
+*.color0:       #1c1c1c
+*.color8:       #666666
+
+! red
+*.color1:       #ff005b
+*.color9:       #ff00a0
+
+! green
+*.color2:       #cee318
+*.color10:      #ccff00
+
+! yellow
+*.color3:       #ffe755
+*.color11:      #ff9f00
+
+! blue
+*.color4:       #048ac7
+*.color12:      #48c6ff
+
+! magenta
+*.color5:       #833c9f
+*.color13:      #be67e1
+
+! cyan
+*.color6:       #0ac1cd
+*.color14:      #63e7f0
+
+! white
+*.color7:       #e5e5e5
+*.color15:      #f3f3f3
+
+Xcursor.theme: Adwaita
+Xcursor.size:                     0
+
+URxvt.font:                      xft:Cascadia Code:pixelsize=16
+URxvt.depth:                      32
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*saveLines:                  5000
+
+! for 'fake' transparency (without Compton) uncomment the following three lines
+!URxvt*inheritPixmap:            true
+!URxvt*transparent:              true
+!URxvt*shading:                  0
+
+! Normal copy-paste keybindings without perls
+URxvt.iso14755:                   false
+URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
+URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+URxvt.keysym.Control-Left:        \033[1;5D
+URxvt.keysym.Shift-Control-Left:  \033[1;6D
+URxvt.keysym.Control-Right:       \033[1;5C
+URxvt.keysym.Shift-Control-Right: \033[1;6C
+URxvt.keysym.Control-Up:          \033[1;5A
+URxvt.keysym.Shift-Control-Up:    \033[1;6A
+URxvt.keysym.Control-Down:        \033[1;5B
+URxvt.keysym.Shift-Control-Down:  \033[1;6B
+! Rxvt.perl-ext-common:             ...,clipboard
+! URxvt*chdir:                      string
+URxvt*jumpScroll:                 true
+URxvt*scrollstyle:                urxvt
+! URxvt*scrollTtyOutput:            boolean
+! URxvt*scrollTtyKeypress:          boolean
+! URxvt*scrollWithBuffer:           boolean
+! URxvt*blurRadius:                 HxV
+! URxvt*fading:                     number
+! URxvt*fadeColor:                  color
+! URxvt*urgentOnBell:               boolean
+URxvt*visualBell:                 true
+! URxvt*insecure:                   boolean
+! URxvt*cursorUnderline:            true
+! URxvt*pointerBlank:               boolean
+! URxvt*underlineColor:             color
+! URxvt*troughColor:                color
+! URxvt*highlightColor:             color
+! URxvt*highlightTextColor:         color
+! URxvt*cursorColor:                color
+! URxvt*cursorColor2:               color
+! URxvt*pointerColor:               color
+! URxvt*pointerColor2:              color
+! URxvt*borderColor:                color
+! URxvt*iconFile:                   file
+! URxvt*boldFont:                   fontname
+! URxvt*italicFont:                 fontname
+! URxvt*boldItalicFont:             fontname
+! URxvt*visual:                     number
+! URxvt*transient-for:              windowid
+! URxvt*override-redirect:          boolean
+! URxvt*lineSpace:                  number
+! URxvt*letterSpace:                number
+! URxvt*skipBuiltinGlyphs:          boolean
+! URxvt*pointerBlankDelay:          number
+! URxvt*backspacekey:               string
+! URxvt*deletekey:                  string
